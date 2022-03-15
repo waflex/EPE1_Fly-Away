@@ -6,6 +6,41 @@ body {
 }
 
 nav {
-    background-color: #1b0088;
+    background: #1b0088;
+    background: linear-gradient(50deg, #1b0088 50%, #ffffff 100%);
+}
+
+nav a {
+    color: white;
+}
+
+.navbar-banner .nav-link {
+    color: white;
+}
+
+.navbar-banner .dropdown-menu {
+    background: rgba(255, 255, 255, 0);
+    border: 0px;
+    border-radius: .5px;
+    margin-top: 10px;
+    position: inherit;
+}
+
+.navbar-banner .dropdown-item {
     color: #ffffff;
+}
+
+.navbar-banner .dropdown-item:hover {
+    background-color: #1b00884d;
+}
+
+.links a:link {
+    text-decoration: none;
+}
+
+@media (max-width:420px) {
+    body {
+        background-attachment: fixed;
+        background-position: center;
+    }
 }
