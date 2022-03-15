@@ -14,6 +14,13 @@ nav a {
     color: white;
 }
 
+footer {
+    position: ;
+    bottom: auto;
+    min-width: 2.0rem;
+    width: auto;
+}
+
 .navbar-banner .nav-link {
     color: white;
 }
