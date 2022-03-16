@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
+    width: auto;
 }
 
 nav {
@@ -15,10 +16,9 @@ nav a {
 }
 
 footer {
-    position: ;
     bottom: auto;
     min-width: 2.0rem;
-    width: auto;
+    width: fit-content;
 }
 
 .navbar-banner .nav-link {
