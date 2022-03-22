@@ -3,6 +3,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.background {
+    background-image: url(/img/Background3.jpg);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
 .bd-placeholder-img {
     font-size: 1.125rem;
     text-anchor: middle;
