@@ -110,5 +110,7 @@ Problemas Presentes en el proyecto
 	Una vez terminados todos los elementos solicitados aun se encuentran algunos problemas que no se lograron solucionar a la fecha:
 	
 1-	Los iconos en Centro de Ayuda no están siendo responsivos, si bien se les cambio en algún momento el “Font-size” para cuando la resolución fuese para dispositivos móviles, estos no tomaban las nuevas propiedades, incluso cuando se les quito la clase que permite el aumento de estos
+
 2-	Por alguna razón, el background del body, no esta mostrando la imagen por completo, si bien se le aplicaron propiedades como “center” “no-repeat” entre otros, este no está adaptándose a las distintas resoluciones, ni tampoco esta tomando la forma de la pantalla actual.
+
 3-	Por alguna razón al estar en pantallas tamaño medio, el script “AOS” el cual se usa para las animaciones a medida que uno navega en pantalla, esta actuando un poco atrasado a la posición en la que se encuentra el usuario, logrando una sensación de vacío por unos segundos.
