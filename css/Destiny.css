@@ -1,0 +1,26 @@
+/* Background Destinos */
+
+.Background-title {
+    background-image: url("/img/Takeoff.jpg");
+    position: relative;
+    top: -10px;
+    height: 200px;
+    width: 2rem;
+    background-position: center;
+    background-position-y: 40%;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.Background-title h1 {
+    color: #1b0088;
+    text-shadow: 2px 2px 4px #ffffff;
+    backdrop-filter: blur(10%);
+    font-weight: 500;
+}
+
+@media (max-width: 500px) {
+    .Background-title {
+        border-radius: 0px 20px 20px;
+    }
+}
