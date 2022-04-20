@@ -23,7 +23,7 @@ a {
 }
 
 .Background-title {
-    background-image: url("/img/Contacto1.jpg");
+    background-image: url("../img/Contacto1.jpg");
     position: relative;
     top: -25px;
     height: 200px;

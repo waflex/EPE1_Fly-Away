@@ -1,7 +1,7 @@
 /* Background Destinos */
 
 .Background-title {
-    background-image: url("/img/Hoteles.jpeg");
+    background-image: url("../img/Hoteles.jpeg");
     position: relative;
     top: -10px;
     height: 200px;
